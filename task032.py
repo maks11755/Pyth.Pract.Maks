@@ -7,10 +7,10 @@
 # 0, -5, -5, 7]
 # Вывод: [1, 9, 13, 14, 19]
 
-lst2=[]
+list2=[]
 n, m = map(int, input("Enter numbers of the range:   ").split())
-lst=[-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
-for i in range(len(lst)):
-    if lst[i]>n and lst[i]<m:
-        lst2.append(i)
-print(lst2)
+list=[-5, 9, 0, 3, -1, -2, 1, 4, -2, 10, 2, 0, -9, 8, 10, -9, 0, -5, -5, 7]
+for i in range(len(list)):
+    if list[i]>n and list[i]<m:
+        list2.append(i)
+print(list2)
